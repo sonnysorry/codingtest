@@ -7,6 +7,7 @@ python coding test 연습
  
 ##### (백준 ex - 3031 숫자세기 (형도) https://www.acmicpc.net/problem/1001)
 ##### (프로그래머스 - 멀쩡한 사각형 (택원) https://programmers.co.kr/learn/courses/30/lessons/62048)
+##### 출석부 작성 (하단에 체크)
  
 
 # 백준
@@ -63,3 +64,6 @@ python coding test 연습
 13. 유니온 파인드
 14. 크루스칼
 15. 트리 지름 구하기
+
+# 출석부
+'21. 09. 27. 레포 생성 (형도)
