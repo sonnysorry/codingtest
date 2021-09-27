@@ -4,8 +4,9 @@ python coding test 연습
 
 # 규약 
  Read me 파일에 알고리즘별로 각자 푼 것에 대한 정보 올리기
- (백준 ex - 3031 숫자세기 (형도) https://www.acmicpc.net/problem/1001)
- (프로그래머스 - 멀쩡한 사각형 (택원) https://programmers.co.kr/learn/courses/30/lessons/62048)
+ 
+##### (백준 ex - 3031 숫자세기 (형도) https://www.acmicpc.net/problem/1001)
+##### (프로그래머스 - 멀쩡한 사각형 (택원) https://programmers.co.kr/learn/courses/30/lessons/62048)
  
 
 # 백준
