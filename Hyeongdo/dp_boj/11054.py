@@ -3,18 +3,21 @@
 n = int(input())
 num_list = list(map(int, input().split()))
 
+arr = [1] * (n + 1)
 dp1 = [1]*(n+1)
 dp2 = [1]*(n+1)
 
+for i in range(1, n + 1):
+    arr[i] = num_list[i - 1]
 
-for i in range(1,n):
-    for j in range(0,i):
-        if num_list[i] > num_list[j]:
+for i in range(1,n+1):
+    for j in range(1,i):
+        if arr[i] > arr[j]:
             dp1[i] = max(dp1[j]+1, dp1[i])
 
-for k in range(n-1, 0, -1):
-    for p in range(n-1, k, -1):
-        if num_list[k] > num_list[p]:
+for k in range(n, 0, -1):
+    for p in range(n, k, -1):
+        if arr[k] > arr[p]:
             dp2[k] = max(dp2[p]+1, dp2[k])
 
 dp3 = [1]*(n+1)
