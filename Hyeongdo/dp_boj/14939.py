@@ -11,7 +11,6 @@ for i in range(10):
     for j in range(10):
         for k in range(len(a)):
             if i+a[k] < 0 or i + a[k] > 10 or j + b[k] < 0 or b[k] > 10:
-                arr[i][j] = light[i+a[k]][j+b[k]]
+                light[i+a[k]][j+b[k]]
     
-
 print(arr)
